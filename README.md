@@ -1,24 +1,24 @@
-# Omni — binaires de release
+# Omni — release binaries
 
-Ce dépôt **ne contient aucun code source**. Il n'héberge que les artefacts publiés par la CI
-d'Omni : l'installeur `Omni-<version>-setup.exe`, son `.blockmap`, et `latest.yml`, le manifeste
-que lit `electron-updater`.
+This repository holds **no source code**. It only hosts the artifacts published by Omni's CI:
+the `Omni-<version>-setup.exe` installer, its `.blockmap`, and `latest.yml` — the manifest
+`electron-updater` reads.
 
-## Pourquoi il est séparé, et public
+## Why it is separate, and public
 
-L'application installée doit pouvoir lire ses propres releases pour se mettre à jour. Si elle
-lisait celles d'un dépôt privé, il faudrait un jeton d'accès sur la machine de chaque utilisateur —
-et GitHub n'offre **aucune** permission « Releases » isolée : les releases relèvent de `Contents`,
-la permission qui donne aussi la lecture du code source. Un tel jeton, volé, aurait donc exposé le
-code ; et il aurait fallu le distribuer à chaque utilisateur.
+The installed app has to read its own releases to update itself. Reading them from a private
+repository would require an access token on every user's machine — and GitHub offers **no**
+Releases-only permission: releases live under `Contents`, the same permission that grants read
+access to the source code.
 
-Séparer les binaires du code résout les deux problèmes d'un coup : ce dépôt peut être public sans
-rien révéler du code, l'application le lit sans authentification, et il n'y a plus aucun secret à
-stocker ni à transmettre.
+Such a token, if stolen, would have exposed the source; and it would have had to be handed to
+every user by out-of-band means. Keeping the binaries here solves both problems at once: this
+repository can be public without revealing any code, the app reads it anonymously, and there is
+no secret left to store or distribute.
 
-Le code source d'Omni reste dans un dépôt privé.
+Omni's source code remains in a private repository.
 
-## Ce qui écrit ici
+## What writes here
 
-Uniquement le workflow de release du dépôt principal, via un secret d'Actions (`RELEASES_TOKEN`)
-qui ne quitte jamais GitHub.
+Only the release workflow of the main repository, through a GitHub Actions secret
+(`RELEASES_TOKEN`) that never leaves GitHub.
