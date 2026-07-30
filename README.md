@@ -4,7 +4,7 @@
 [![Downloads](https://img.shields.io/github/downloads/Jean-Baradat/Omni-releases/total?label=downloads&color=0B7285)](../../releases)
 [![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011%20x64-0078D4)](../../releases/latest)
 [![Installer](https://img.shields.io/badge/installer-NSIS%20per--user-6B7280)](../../releases/latest)
-![License](https://img.shields.io/badge/license-proprietary-6B7280)
+[![License](https://img.shields.io/badge/license-PolyForm%20Strict%201.0.0-6B7280)](LICENSE.md)
 
 ![Electron](https://img.shields.io/badge/Electron-42-47848F?logo=electron&logoColor=white)
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
@@ -41,6 +41,15 @@ Omni runs on your own Claude account, connected once in **Paramètres → Compte
 - or an **Anthropic API key** (`sk-ant-api…`).
 
 Nothing starts until an account is connected. The interface is in French.
+
+### License
+
+Omni is distributed under the [PolyForm Strict License 1.0.0](LICENSE.md): you may use it for a
+permitted purpose — personal use, or any noncommercial purpose — but you may not copy, modify or
+redistribute it. It comes with no warranty of any kind.
+
+The installer bundles third-party components (Electron, Chromium, Node.js, Anthropic's Claude Code
+CLI) that keep their own licenses. Your Anthropic account is subject to Anthropic's own terms.
 
 ### About this repository
 
@@ -83,6 +92,16 @@ Omni fonctionne avec votre propre compte Claude, connecté une fois dans **Param
 - ou une **clé API Anthropic** (`sk-ant-api…`).
 
 Rien ne démarre tant qu'aucun compte n'est connecté.
+
+### Licence
+
+Omni est distribué sous [PolyForm Strict License 1.0.0](LICENSE.md) : vous pouvez l'utiliser dans un
+cadre autorisé — usage personnel ou tout usage non commercial — mais vous ne pouvez ni le copier, ni
+le modifier, ni le redistribuer. Il est fourni sans aucune garantie.
+
+L'installeur embarque des composants tiers (Electron, Chromium, Node.js, la CLI Claude Code
+d'Anthropic) qui conservent leurs propres licences. Votre compte Anthropic relève des conditions
+d'Anthropic.
 
 ### À propos de ce dépôt
 
