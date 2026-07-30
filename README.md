@@ -2,7 +2,7 @@
 
 [![Version](https://img.shields.io/github/v/release/Jean-Baradat/Omni-releases?label=version&color=0B7285)](../../releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Jean-Baradat/Omni-releases/total?label=downloads&color=0B7285)](../../releases)
-[![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011%20x64-0078D4?logo=windows&logoColor=white)](../../releases/latest)
+[![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011%20x64-0078D4)](../../releases/latest)
 [![Installer](https://img.shields.io/badge/installer-NSIS%20per--user-6B7280)](../../releases/latest)
 ![License](https://img.shields.io/badge/license-proprietary-6B7280)
 
