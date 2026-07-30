@@ -4,10 +4,24 @@ Omni is made available under the **PolyForm Strict License 1.0.0**, reproduced v
 you may use Omni for a permitted purpose, and nothing else — no copying, no modification, no
 redistribution.
 
-The installer also contains third-party components (Electron, Chromium, Node.js, and Anthropic's
-Claude Code CLI, the latter being `© Anthropic PBC, all rights reserved`). They remain governed by
-their own licenses, and nothing below grants any right in them. Omni requires your own Anthropic
-account, whose use is subject to Anthropic's own terms.
+## Third-party components
+
+The installer contains third-party components — Electron, Chromium and Node.js among them — which
+remain governed by their own licenses. Nothing below grants any right in them.
+
+It also embeds Anthropic's Claude Code CLI, shipped inside the `@anthropic-ai/claude-agent-sdk`
+package (version 0.3.218 as of Omni 2.46.0). Its licence reads, in full:
+
+> © Anthropic PBC. All rights reserved. Use is subject to the Legal Agreements outlined here:
+> https://code.claude.com/docs/en/legal-and-compliance
+
+As of 30 July 2026, those Legal Agreements are Anthropic's **Commercial Terms of Service**
+(effective 17 June 2025) and **Consumer Terms of Service** (effective 8 October 2025), whichever
+matches your own Anthropic plan, together with the Anthropic Usage Policy.
+
+Omni requires your own Anthropic account and calls Anthropic's services with your own credentials.
+Nothing below grants you any right in Anthropic's software or services: your use of them is a matter
+between you and Anthropic, under the agreements above.
 
 ---
 
