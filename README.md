@@ -1,5 +1,18 @@
 # Omni
 
+[![Version](https://img.shields.io/github/v/release/Jean-Baradat/Omni-releases?label=version&color=0B7285)](../../releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/Jean-Baradat/Omni-releases/total?label=downloads&color=0B7285)](../../releases)
+[![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011%20x64-0078D4?logo=windows&logoColor=white)](../../releases/latest)
+[![Installer](https://img.shields.io/badge/installer-NSIS%20per--user-6B7280)](../../releases/latest)
+![License](https://img.shields.io/badge/license-proprietary-6B7280)
+
+![Electron](https://img.shields.io/badge/Electron-42-47848F?logo=electron&logoColor=white)
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-6-3178C6?logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4-06B6D4?logo=tailwindcss&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-%E2%89%A522.12-5FA04E?logo=nodedotjs&logoColor=white)
+![Claude Agent SDK](https://img.shields.io/badge/Claude%20Agent%20SDK-0.3-D97757?logo=anthropic&logoColor=white)
+
 **[English](#english) · [Français](#français)**
 
 ---
